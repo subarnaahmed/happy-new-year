@@ -1,0 +1,178 @@
+.banner{ background-image: url(gettyimages-1801030303-612x612.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: palevioletred;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    0% {background-image: url(gettyimages-1801030303-612x612.jpg),
+        radial-gradient(rgb(88, 38, 169), rgb(196, 7, 158)); 
+        opacity: 0.4;}
+    30% {background-image: url(gettyimages-1801030303-612x612.jpg), radial-gradient(hsl(0, 100%, 50%),
+        hsl(120, 100%, 25%)); opacity: 0.4;}
+
+}
+@media screen and (max-width:668px) {
+   
+}
+
+.text{
+color: white;
+text-align: center;
+padding: 50px;
+
+}
+   
+.new{
+    margin-top: 30px;
+}
+.of{
+    text-align: center;
+    padding: 30px;
+}
+.ou{
+    text-align: center;
+    padding: 20px;
+}
+.al{
+    text-align: center;
+    padding: 20px;
+}
+.ime{
+    width: 400px;
+}
+.full{
+    text-align: center;
+    padding: 40px;
+    width: 1000px;
+    margin: 0 auto;
+}  
+.come{background-image: url(gettyimages-1415978568-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1000px; 
+    margin:0 auto;
+}
+.myimg{
+    background-image: linear-gradient(to right, green, pink);
+    height:400px ;
+    opacity: 0.2;
+    color: white;
+    padding: 40px;
+}
+
+.ame{
+    text-align: center;
+    padding: 60px;
+    background-color: antiquewhite;
+    
+
+    
+}
+.ame{
+    margin-top: 80px;
+}
+.offer{
+    display: flex;
+    gap: 20px;
+margin: 5px;
+margin:0 auto;
+padding: 200px;
+background-color: antiquewhite;
+}
+.holy{
+    text-align: center;
+    padding: 20px;
+}
+
+.red{
+    background-color: red;
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+.rect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+    width: 900px;
+
+}
+.best{
+    padding: 30px;
+}
+.cover{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 80px;
+    width: 900px;
+    margin: 0 auto;
+}
+.fullpage{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.close{
+    text-align: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 1000px;
+    margin:0 auto;
+}
+    .imi{
+        border:solid red;
+        padding: 15px;
+        border-radius: 100%;
+  
+        
+    }
+    .all{
+        display: flex;
+        gap: 5px;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        width: 1000px;
+        margin: 0 auto;
+
+    }
+    .fullpage{
+        margin-top: 30px;
+    }
+    .day{
+        display: flex;
+        position: relative;
+        gap: 30px;
+        margin:0 auto;
+    }
+    .imuge{
+        position: absolute;
+        top: 80px;
+        left: 600px;
+        
+    }
+    
+    
+    
+
+    
